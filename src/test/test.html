@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TEST : [my-jq-splitter]</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="google" content="notranslate">
+        <link rel="stylesheet" media="all" href="../css/smoothness/jquery-ui.min.css">
+        <link rel="stylesheet" media="all" href="../css/my-jq-splitter.css">
+        <script type="text/javascript" data-main="./test" src="../js/lib/require.js"></script>
+    </head>
+    <body>
+        <div id="left" style="background-color: #ffffcc;">LEFT : <br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;toggler: <span style="color: #800;">false</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;resizeable: <span style="color: #800;">false</span><br>}</div>
+        <div id="one" style="">
+            <div id="top" style="background-color: #ccffff;">TOP : { toggler: <span style="color: #800;">true</span>, resizeable: <span style="color: #800;">false</span> }</div>
+            <div id="two" style="">
+                
+                <div id="bottom" style="background-color: #dddddd;">BOTTOM : { toggler: <span style="color: #800;">false</span>, resizeable: <span style="color: #800;">true</span> }</div>
+                <div id="three" style="">
+                    <div id="right" style="background-color: #ffccff;">
+			            <div style="width: 100%; height: 100%; overflow: auto; ">
+			            RIGHT : <br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;toggler: <span style="color: #800;">true</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;resizeable: <span style="color: #800;">true</span><br>}
+			            </div>
+		            </div>
+                    <div id="four" style="background-color: #000; color: #ccc;">Test librairie <span style="color: #0f0;">&ldquo;my-jq-splitter&rdquo;</span></div>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
